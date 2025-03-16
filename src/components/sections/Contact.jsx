@@ -11,7 +11,7 @@ export const Contact = () => {
             <RevealOnScroll>
                 <div className="px-4 w-150">
                     <h2 className="text-3xl font-bold mb-8 text-[#FFFFFF] text-center">
-                        Get In Touch
+                        Get In Touch, I Would Love To Connect!
                     </h2>
                     <div className="flex space-x-6 justify-center">
                         <a href="https://www.linkedin.com/in/jp-pineda-/" target="_blank" rel="noopener noreferrer" className="text-white text-3xl hover:text-gray-300 transition">

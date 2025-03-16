@@ -44,7 +44,11 @@ export const About = () => {
             
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all"> 
                 <p className="text-gray-300 mb-6">
-                    Intro about me
+                Hi! My name is John Paul Pineda, JP for short. I’m currently a junior at WashU, 
+                studying Computer Science + Math. I’m motivated by the excitement of solving complex problems and seeing its impact in a 
+                collaborative and diverse environment. 
+                My primary interest lies in software development, product management, and cyber security!
+                Outside of academics, I enjoy going on adventures, playing video games, listening to music, and exploring new foods and cuisines!
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -94,7 +98,8 @@ export const About = () => {
                             <li>
                                 <strong>B.S. in Computer Science + Mathematics </strong> - Washington University in St. Louis (Aug. 2022- May 2026)
                                 <ul className="list-disc ml-6 space-y-1">
-                                    <li>Relevant Coursework: </li>
+                                    <li>Relevant Coursework: Data Structures, Probability, Linear Algebra, Intro to AI, Full Stack Development, Object-Oriented Programming, 
+                                         Linear Statistical Models, Algorithm Analysis</li>
                                 </ul> 
                             </li>                    
                         </ul>
@@ -102,7 +107,7 @@ export const About = () => {
                             <li>
                                 <strong>Exchange Student in Computer Science </strong> - Yonsei University, Seoul, South Korea (Sept. 2024- Dec. 2024)
                                 <ul className="list-disc ml-6 space-y-1">
-                                    <li>Relevant Coursework: </li>
+                                    <li>Relevant Coursework: Research Methods in Human-Computer Interaction</li>
                                 </ul> 
                             </li>                 
                         </ul>
@@ -111,19 +116,19 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">Interests</h3>
                         <ul className="list-disc list-inside text-gray-150 space-y-2">
                             <li>
-                                Interest1
+                                Software Engineering
                             </li>
                             <li>
-                                Interest2
+                                Product Management
                             </li>
                             <li>
-                                Interest3
+                                Cyber Security
                             </li> 
                             <li>
-                                Interest4
+                                FinTech Industry
                             </li> 
                             <li>
-                                Interest5
+                                BioTech Industry
                             </li>                   
                         </ul>
                 </div>
