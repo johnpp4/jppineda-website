@@ -90,7 +90,7 @@ export const About = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-6 mt-8">
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         {/* maybe add a timeline??? */}
                         <h3 className="text-xl font-bold mb-4">Education</h3>
