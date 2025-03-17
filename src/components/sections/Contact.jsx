@@ -6,10 +6,10 @@ export const Contact = () => {
     return (
         <section 
             id="contact" 
-            className="h-[125px] flex items-center justify-center py-20 bg-[#727D73]">
+            className="w-full min-h-[125px] flex flex-col items-center justify-center py-10 px-4 bg-[#727D73] text-center">
             
             <RevealOnScroll>
-                <div className="px-4 w-150">
+                <div className="w-full max-w-2xl">
                     <h2 className="text-3xl font-bold mb-8 text-[#FFFFFF] text-center">
                         Get In Touch, I Would Love To Connect!
                     </h2>
