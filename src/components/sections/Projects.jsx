@@ -17,6 +17,28 @@ export const Experience = () => {
                 {/* copy here per project */}
                 <div className="p-6 rounded-xl border border-[#C3D1B8] hover:-translate-y-1 hover:border-[#C3D1B8]
                                 hover:shadow-[0_2px_8px_4gba(59,130,246,0.1)] transition-all">
+                    <h3 className="text-xl font-bold mb-2 text-[#5A6C57]"> IT Lab Cybersecurity Fellow (June 2025 - Aug. 2025)</h3>
+                    <p className="text-gray-400 mb-4"> 
+                    Collaborating with a group in developing realistic cybersecurity training simulations, converting cyber scenarios into virtual environments with supporting documentation.
+                    Taking coursework in Network Defense, Information Security Management, and Cyber Intelligence under the Heinz College.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        {["Wireshark", "Project Management", "Collaboration", "Information Security"].map((tech,key) => (
+                            <span 
+                            key={key}
+                            className="bg-[#5F685F] text-gray-200 py-1 px-3 rounded-full text-sm hover:bg-[#A5AD9F]
+                                        hover:shadow-[0_2px_8px_4gba(59,130,246,0.2)] transition 
+                                        ">
+                            {tech}
+                            </span>
+                        ))}
+                    </div>
+                    {/* <div className="flex justify-between items-center">
+                        <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project</a>
+                    </div> */}
+                </div>
+                <div className="p-6 rounded-xl border border-[#C3D1B8] hover:-translate-y-1 hover:border-[#C3D1B8]
+                                hover:shadow-[0_2px_8px_4gba(59,130,246,0.1)] transition-all">
                     <h3 className="text-xl font-bold mb-2 text-[#5A6C57]"> Engineering Tutor (Sept. 2023 - Current)</h3>
                     <p className="text-gray-400 mb-4"> 
                     Tutor up to 3 students in Computer Science and Math fundamentals, conducting tailored 2-hour weekly sessions, 

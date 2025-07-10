@@ -44,7 +44,7 @@ export const About = () => {
             
             <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all"> 
                 <p className="text-gray-300 mb-6">
-                Hi! My name is John Paul Pineda, JP for short. I’m currently a junior at WashU, 
+                Hi! My name is John Paul Pineda, JP for short. I’m a rising Senior at WashU, 
                 studying Computer Science + Math. I’m motivated by the excitement of solving complex problems and seeing its impact in a 
                 collaborative and diverse environment. 
                 My primary interest lies in software development, product management, and cyber security!
@@ -99,7 +99,7 @@ export const About = () => {
                                 <strong>B.S. in Computer Science + Mathematics </strong> - Washington University in St. Louis (Aug. 2022- May 2026)
                                 <ul className="list-disc ml-6 space-y-1">
                                     <li>Relevant Coursework: Data Structures, Probability, Linear Algebra, Intro to AI, Full Stack Development, Object-Oriented Programming, 
-                                         Linear Statistical Models, Algorithm Analysis</li>
+                                         Linear Statistical Models, Algorithm Analysis, Data Mining, Financial Math</li>
                                 </ul> 
                             </li>                    
                         </ul>
